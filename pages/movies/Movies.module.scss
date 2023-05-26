@@ -1,0 +1,28 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  @media (min-width: 700px) {    
+    max-width: 100%;
+    padding: 0 4rem;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.movieList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.addNewMovie {
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
